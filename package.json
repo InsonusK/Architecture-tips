@@ -1,0 +1,15 @@
+{
+  "name": "Architecture-tips",
+  "version": "1.0.0",
+  "description": "My Architecture tips",
+  "main": "index.js",
+  "author": "InsonusK",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "rename": "node scripts/rename-ea-files.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
