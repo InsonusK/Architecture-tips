@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>PFEvent</title>
+<title>Presentation Form::PFInputModel</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("PFEvent", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationEvent&gt;&gt; ApplicationEvent</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("PFInputModel", " : "))</script> PFIM : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16.10.2025 18:14:23</td>
+			<td width="85%" class="ObjectDetailsValue">16.10.2025 18:13:44</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">17.10.2025 4:43:48</td>
+			<td class="ObjectDetailsValue">17.10.2025 4:34:56</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,18 +87,17 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{B50EB9A2-C4AC-4676-898B-83FCEE7F9DD0}</td>
+			<td class="ObjectDetailsValue">{BC432282-281C-45c5-AE10-58B4C29D878E}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA6/EA89.htm">PWA + NgRx Store + Local DB + Backend integration</a>, <a href="../EA58.htm">Forms</a>, <a href="EA78.htm">Presentation Form</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA6/EA86.htm">PWA + NgRx Store + Local DB + Backend integration</a>, <a href="../EA56.htm">Forms</a>, <a href="EA77.htm">Presentation Form</a>, <a href="../EA2/EA69.htm">Smart Form</a>, <a href="../../EA3/EA38.htm">Data Model</a>, <a href="../../EA6/EA90.htm">Сервисы и требования (Детализировано)</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -111,8 +110,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA82.htm">«ArchiMate_DataObject» PFEventModel</a><br />
-						DataObject «ArchiMate_Association» 
+						<a href="EA84.htm">«ArchiMate_ApplicationFunction» @Input PFModel</a><br />
+						ApplicationFunction «ArchiMate_Association» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -125,38 +124,14 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink43" onclick="parent.toggleDiv('detailsDIVLink43','DetailsImageLink43')" />Details:
-							<div id="detailsDIVLink43" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink58" onclick="parent.toggleDiv('detailsDIVLink58','DetailsImageLink58')" />Details:
+							<div id="detailsDIVLink58" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA84.htm">PresentationForm</a><br />
-						Component «ArchiMate_Triggering» 
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow44" onclick="parent.toggleDiv('detailsDIVLinkFlow44', 'DetailsImageLinkFlow44')" />Details:
-							<div id="detailsDIVLinkFlow44" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
@@ -176,11 +151,6 @@ function nameClassifier(name, separator)
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
 				<td width="30%" class="TableRow">isFinalSpecialization:</td>
 				<td width="70%" class="TableRow">0</td>
 			</tr>
@@ -197,8 +167,15 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA70.htm">«ArchiMate_ApplicationCollaboration» EventBinding</a></td>
-					<td width="10%" class="TableRow" valign="top">ApplicationCollaboration</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA43.htm">«ArchiMate_DataObject» UI model</a></td>
+					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA74.htm">«ArchiMate_ApplicationFunction» MapEntityToPFIM</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationFunction</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

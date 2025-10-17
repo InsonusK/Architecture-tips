@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Сервисы и требования</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA89.png" usemap="#EA89" border="0" />
+
+<MAP NAME="EA89">
+<area shape="rect" coords="10,788,110,858" href="../EA1/EA15.htm" target="_self">
+<area shape="rect" coords="10,642,110,712" href="../EA1/EA14.htm" target="_self">
+<area shape="rect" coords="556,640,656,710" href="../EA1/EA12.htm" target="_self">
+<area shape="rect" coords="556,475,656,545" href="../EA1/EA18.htm" target="_self">
+<area shape="rect" coords="370,638,460,708" href="../EA1/EA30.htm" target="_self">
+<area shape="rect" coords="229,788,319,858" href="../EA1/EA10.htm" target="_self">
+<area shape="rect" coords="310,475,400,545" href="../EA1/EA9.htm" target="_self">
+<area shape="rect" coords="202,642,346,712" href="../EA1/EA8.htm" target="_self">
+<area shape="rect" coords="257,330,400,400" href="../EA2/EA34.htm" target="_self">
+<area shape="rect" coords="556,330,656,400" href="../EA2/EA35.htm" target="_self">
+<area shape="rect" coords="556,170,656,240" href="../EA5/EA2/EA73.htm" target="_self">
+<area shape="rect" coords="202,169,400,239" href="../EA5/EA2/EA72.htm" target="_self">
+<area shape="rect" coords="556,10,656,80" href="../EA5/EA3/EA83.htm" target="_self">
+<area shape="rect" coords="202,10,400,80" href="../EA5/EA3/EA82.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Сервисы и требования : Application Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">17.10.2025 14:32:28</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">17.10.2025 15:01:54</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">InsonusK</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{08F0FE50-C58B-4039-BD8D-08AA8817FD81}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,1 +1,3 @@
-tocTab[tocTab.length] = new Array("0.6:1", "", "PWA + NgRx Store + Local DB + Backend integration", "EARoot/EA6/EA89.htm", "175.png", "1", "0", "", "Logical diagram0","{5C8C91CE-2FE6-4e3e-BAAA-CE69066CADAA}");
+tocTab[tocTab.length] = new Array("0.6:1", "", "PWA + NgRx Store + Local DB + Backend integration", "EARoot/EA6/EA86.htm", "175.png", "1", "0", "", "Logical diagram0","{5C8C91CE-2FE6-4e3e-BAAA-CE69066CADAA}");
+tocTab[tocTab.length] = new Array("0.6:2", "", "Сервисы и требования", "EARoot/EA6/EA88.htm", "175.png", "13", "0", "", "Logical diagram0","{08F0FE50-C58B-4039-BD8D-08AA8817FD81}");
+tocTab[tocTab.length] = new Array("0.6:3", "", "Сервисы и требования (Детализировано)", "EARoot/EA6/EA90.htm", "175.png", "14", "0", "", "Logical diagram0","{D960E470-594F-4ad8-94FB-A1D0C8CAAA82}");
