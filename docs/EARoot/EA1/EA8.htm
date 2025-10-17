@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>MapPFEToSAModel</title>
+<title>App Storage Service::Api Adapter Service</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MapPFEToSAModel", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Api Adapter Service", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationComponent&gt;&gt; ApplicationComponent</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16.10.2025 20:18:32</td>
+			<td width="85%" class="ObjectDetailsValue">17.10.2025 5:03:54</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16.10.2025 20:22:35</td>
+			<td class="ObjectDetailsValue">17.10.2025 5:04:07</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5D551914-E2FE-45d0-8F0C-A14EA038550A}</td>
+			<td class="ObjectDetailsValue">{E84C5702-F1BF-4132-A50B-EF7C10D9CE11}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1.htm">Forms</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1.htm">App Storage Service</a>, <a href="EA3.htm">Offline Integration</a>, <a href="EA5.htm">Online Integration</a></td>
 		</tr>
 	</table>
 	
@@ -117,8 +117,8 @@ function nameClassifier(name, separator)
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>
@@ -138,22 +138,36 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA14.htm">«ArchiMate_ApplicationComponent» SmartForm</a></td>
-					<td width="10%" class="TableRow" valign="top">ApplicationComponent</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA10.htm">«ArchiMate_DataObject» PFEventModel</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA14.htm">«ArchiMate_Requirement» Преобразование Domain model в DTO</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA21.htm">«ArchiMate_DataObject» StoreActionModel</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA26.htm">«ArchiMate_ApplicationProcess» Map Service Request to DTO</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationProcess</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA11.htm">«ArchiMate_ApplicationInterface» ServiceApi</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationInterface</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA24.htm">«ArchiMate_ApplicationFunction» App Function</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationFunction</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA25.htm">«ArchiMate_ApplicationProcess» Map Response DTO to Serice Response</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationProcess</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

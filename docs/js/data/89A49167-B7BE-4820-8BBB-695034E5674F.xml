@@ -1,2 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1", "1", "TestView", "EARoot/EA1/EA3.htm", "31.png", "", "", "{933D75EB-DAC2-4097-8AF6-88A685A7A023}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Forms", "EARoot/EA2/EA6.htm", "31.png", "", "", "{17E1D311-C402-4ac0-A30B-76B923C73A47}", "Package");
+tocTab[tocTab.length] = new Array("0.1", "1", "App Storage Service", "EARoot/EA1/EA7.htm", "31.png", "", "", "{9C649BF5-31DF-45d7-B79B-FE046E63B548}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Busines logic Service", "EARoot/EA2/EA34.htm", "31.png", "", "", "{43B33920-0A78-44a5-A0D0-9C41ED21F469}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Data Model", "EARoot/EA3/EA42.htm", "31.png", "", "", "{DD5AEDF7-649B-46e6-B0C9-96B0AB400EE8}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "NgRx", "EARoot/EA4/EA48.htm", "31.png", "", "", "{85D374FC-3FDA-4178-AD28-5F915C11F6BA}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Forms", "EARoot/EA5/EA62.htm", "31.png", "", "", "{933D75EB-DAC2-4097-8AF6-88A685A7A023}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "PWA + NgRx Store + Local DB + Backend integration", "EARoot/EA6/EA91.htm", "31.png", "", "", "{17E1D311-C402-4ac0-A30B-76B923C73A47}", "Package");

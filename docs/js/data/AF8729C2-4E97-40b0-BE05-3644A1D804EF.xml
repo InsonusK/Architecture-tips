@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.4:1", "", "«ArchiMate_Requirement» Интеграция UI с функциональность приложениям", "EARoot/EA5/EA4/EA87.htm", "9F0DDA8A-5_ArchiMate_Requirement.png", "E30", "0", "", "Class0","{65FC430C-61A2-4980-A6E8-7BF9C5792A7B}");
+tocTab[tocTab.length] = new Array("0.5.4:2", "", "«ArchiMate_Requirement» Отрисовка UI и его поведения", "EARoot/EA5/EA4/EA88.htm", "9F0DDA8A-5_ArchiMate_Requirement.png", "E29", "0", "", "Class0","{9BBAED60-6C29-4667-8E23-E237A26A4141}");

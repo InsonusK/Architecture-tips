@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Data Model", "EARoot/EA3/EA40.htm", "175.png", "9", "0", "", "Logical diagram0","{FA31C912-1744-4ff1-9BD7-DB2E54672AE0}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "«ArchiMate_DataObject» Domain Model", "EARoot/EA3/EA43.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E60", "0", "", "Class0","{8BA4F8C7-EE9C-4e85-A78F-9D55131B6141}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "«ArchiMate_DataObject» Integration DTO", "EARoot/EA3/EA44.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E61", "0", "", "Class0","{2333EF01-6B90-48d4-8D73-E28445A1965B}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "«ArchiMate_DataObject» UI model", "EARoot/EA3/EA45.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E59", "0", "", "Class0","{57D7188D-D3CE-455e-9297-370065718BBF}");
