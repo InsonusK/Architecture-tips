@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Store Reducer</title>
+<title>Store Action</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,11 +34,11 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Store Reducer", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationProcess&gt;&gt; ApplicationProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Store Action", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationEvent&gt;&gt; ApplicationEvent</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16.10.2025 20:25:49</td>
+			<td width="85%" class="ObjectDetailsValue">16.10.2025 18:38:32</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -87,20 +87,60 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3A2C09A4-5F9F-40ac-B8E7-65ABE757C760}</td>
+			<td class="ObjectDetailsValue">{8F93DEE5-2A98-4f24-AE05-CE4DB4BF40E8}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA7/EA95.htm">PWA + NgRx Store + Local DB + Backend integration</a>, <a href="EA44.htm">NgRx</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA7/EA109.htm">PWA + NgRx Store + Local DB + Backend integration</a>, <a href="EA44.htm">NgRx</a>, <a href="../EA2/EA31.htm">Busines logic Service</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA53.htm">Store Effect</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow40" onclick="parent.toggleDiv('detailsDIVLinkFlow40', 'DetailsImageLinkFlow40')" />Details:
+							<div id="detailsDIVLinkFlow40" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA54.htm">Store Reducer</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow41" onclick="parent.toggleDiv('detailsDIVLinkFlow41', 'DetailsImageLinkFlow41')" />Details:
+							<div id="detailsDIVLinkFlow41" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -109,15 +149,30 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA50.htm">Store Action</a><br />
+						<a href="../EA2/EA36.htm">Business function</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow44" onclick="parent.toggleDiv('detailsDIVLinkFlow44', 'DetailsImageLinkFlow44')" />Details:
-							<div id="detailsDIVLinkFlow44" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow42" onclick="parent.toggleDiv('detailsDIVLinkFlow42', 'DetailsImageLinkFlow42')" />Details:
+							<div id="detailsDIVLinkFlow42" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA53.htm">Store Effect</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow43" onclick="parent.toggleDiv('detailsDIVLinkFlow43', 'DetailsImageLinkFlow43')" />Details:
+							<div id="detailsDIVLinkFlow43" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -163,17 +218,17 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA54.htm">«ArchiMate_DataObject» Store State</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA48.htm">«ArchiMate_ApplicationComponent» NgRx</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA49.htm">«ArchiMate_ApplicationComponent» NgRx</a></td>
 					<td width="10%" class="TableRow" valign="top">ApplicationComponent</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA51.htm">«ArchiMate_DataObject» StoreActionModel</a></td>
+					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

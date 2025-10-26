@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Обновление UI при изменении URL</title>
+<title>Pages::Page</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Обновление UI при изменении URL", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationProcess&gt;&gt; ApplicationProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Page", " : "))</script>  : Public  &lt;&lt;ArchiMate_ApplicationComponent&gt;&gt; ApplicationComponent</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19.10.2025 12:24:30</td>
+			<td width="85%" class="ObjectDetailsValue">19.10.2025 12:13:59</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19.10.2025 12:26:12</td>
+			<td class="ObjectDetailsValue">19.10.2025 12:14:03</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,21 +87,55 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5F8CC667-93BB-46e6-B011-F51CEE1505FD}</td>
+			<td class="ObjectDetailsValue">{DD0CF0D3-3590-4c59-BDC2-94E407A6DBE3}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA73.htm">Pages</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA2/EA85.htm">Smart Form</a>, <a href="EA74.htm">Pages</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="FlowFromTable">
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA88.htm">«ArchiMate_ApplicationComponent» SmartForm</a><br />
+						ApplicationComponent «ArchiMate_Aggregation» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink53" onclick="parent.toggleDiv('detailsDIVLink53','DetailsImageLink53')" />Details:
+							<div id="detailsDIVLink53" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
@@ -109,15 +143,45 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="../../EA5/EA64.htm">RouteUpdated</a><br />
-						Activity «ArchiMate_Triggering» 
+						<a href="EA81.htm">Связывает Формы с BusinessLogicFacade</a><br />
+						Class «ArchiMate_Influence» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow52" onclick="parent.toggleDiv('detailsDIVLinkFlow52', 'DetailsImageLinkFlow52')" />Details:
-							<div id="detailsDIVLinkFlow52" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow54" onclick="parent.toggleDiv('detailsDIVLinkFlow54', 'DetailsImageLinkFlow54')" />Details:
+							<div id="detailsDIVLinkFlow54" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA80.htm">Связывает Формы с Angular Routing</a><br />
+						Class «ArchiMate_Influence» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow55" onclick="parent.toggleDiv('detailsDIVLinkFlow55', 'DetailsImageLinkFlow55')" />Details:
+							<div id="detailsDIVLinkFlow55" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA79.htm">Организует работу SmartForms</a><br />
+						Class «ArchiMate_Influence» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow56" onclick="parent.toggleDiv('detailsDIVLinkFlow56', 'DetailsImageLinkFlow56')" />Details:
+							<div id="detailsDIVLinkFlow56" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -142,8 +206,8 @@ function nameClassifier(name, separator)
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>
@@ -163,10 +227,31 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA76.htm">«ArchiMate_ApplicationComponent» Page</a></td>
-					<td width="10%" class="TableRow" valign="top">ApplicationComponent</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA82.htm">«ArchiMate_ApplicationProcess» SmartFormEventHandler</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationProcess</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA83.htm">«ArchiMate_ApplicationProcess» Обновление UI при изменении URL</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationProcess</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA78.htm">«ArchiMate_Constraint» Не работает с NgRx напрямую</a></td>
+					<td width="10%" class="TableRow" valign="top">Constraint</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA84.htm">«ArchiMate_ApplicationFunction» MapSFModelToCmd</a></td>
+					<td width="10%" class="TableRow" valign="top">ApplicationFunction</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
