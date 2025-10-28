@@ -1,5 +1,5 @@
 tocTab[tocTab.length] = new Array("0.6:1", "", "Forms", "EARoot/EA6/EA66.htm", "175.png", "2", "0", "", "Logical diagram0","{28714703-DB10-4af0-9507-F6BA3C4499C3}");
-tocTab[tocTab.length] = new Array("0.6:2", "", "Названичения форм", "EARoot/EA6/EA68.htm", "175.png", "3", "0", "", "Logical diagram0","{C0065213-D6F1-4e43-BCBC-AE29BED45E42}");
+tocTab[tocTab.length] = new Array("0.6:2", "", "Назначения форм", "EARoot/EA6/EA68.htm", "175.png", "3", "0", "", "Logical diagram0","{C0065213-D6F1-4e43-BCBC-AE29BED45E42}");
 tocTab[tocTab.length] = new Array("0.6.1", "1", "Pages", "EARoot/EA6/EA1/EA76.htm", "4.png", "", "", "{39EAFBAD-2087-4ca5-89ED-392101AC0662}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2", "1", "Smart Form", "EARoot/EA6/EA2/EA87.htm", "4.png", "", "", "{B4D5DB90-CB00-4fd4-9FF7-05D162AA4384}", "Package");
 tocTab[tocTab.length] = new Array("0.6.3", "1", "Presentation Form", "EARoot/EA6/EA3/EA100.htm", "4.png", "", "", "{87EF28A9-6728-429f-901C-CF54030FA787}", "Package");
